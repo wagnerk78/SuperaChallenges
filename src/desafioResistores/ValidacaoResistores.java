@@ -23,7 +23,7 @@ public class ValidacaoResistores {
                 if (numeros.length() < 3) {
                     printCores(numeros, "preto");
                 }
-                if (numeros.length() >= 3 && numeros.length() < 4) {
+                if (numeros.length() == 3) {
                     printCores(numeros, "marrom");
                 }
 
